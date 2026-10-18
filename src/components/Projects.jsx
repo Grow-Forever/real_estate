@@ -28,7 +28,7 @@ const Projects = () => {
         transition-transform duration-500 ease-in-out' 
            
  >
-          <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center mx-auto sm:px-0'>
+          <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 items-center mx-auto sm:px-0'>
            {projectsData.map((p,i)=>
             <div className='relative  shrink-0 w-full ' key={i}>
                 <img src={p.image} alt='' className=' max-w-80 sm:max-w-100 mx-auto  h-auto mb-15 border rounded-2xl' />
