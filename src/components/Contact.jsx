@@ -39,7 +39,7 @@ const Contact = () => {
       whileInView={{opacity:1, x:0}}
       transition={{duration:1.5}}
       viewport={{once:true}}
-    id="Contact" className='text-center p-6 py-20 lg:px-32 w-full overflow-auto'>
+    id="Contact" className='text-center p-6 py-10 lg:px-32 w-full overflow-auto'>
       
       <h1 className='text-2xl sm:text-4xl font-bold mb-2
        text-center'> Contact  
@@ -49,7 +49,7 @@ const Contact = () => {
         Ready to make a move? Let's Build your future together.
       </p>
 
-      <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
+      <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-2'>
         <div className='flex flex-wrap'>
             <div className='w-full md:w-1/2 text-left'> Your Name
             <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2'
