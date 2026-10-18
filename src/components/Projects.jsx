@@ -30,9 +30,9 @@ const Projects = () => {
  >
           <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center mx-auto sm:px-0'>
            {projectsData.map((p,i)=>
-            <div className='relative flex justify-center shrink-0 w-full ' key={i}>
-                <img src={p.image} alt='' className='w-full max-w-100 mx-auto  h-auto mb-15 border rounded-2xl' />
-            <div className='absolute left-0 right-0 bottom-5 flex justify-center'>
+            <div className='relative  shrink-0 w-full ' key={i}>
+                <img src={p.image} alt='' className=' max-w-100 mx-auto  h-auto mb-15 border rounded-2xl' />
+            <div className='absolute left-0 right-0 bottom-5 flex text-center justify-center'>
                 <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
 
                   <h2 className='text-xl font-semibold text-gray-800'> 

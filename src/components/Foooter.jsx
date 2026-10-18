@@ -9,7 +9,7 @@ const Foooter = () => {
             <div className='flex flex-col md:
             flex-row gap-5 items-center justify-center pt-5 text-blue-400'>
                 <a href='#'> Home</a>
-                <a href='"#About' >About</a>
+                <a href='#About' >About</a>
                 < a href='#Projects'> Projects</a>
                 <a href='#Testimonials'> Testimonials</a>
             </div >
